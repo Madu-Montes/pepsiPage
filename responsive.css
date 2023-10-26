@@ -2,9 +2,28 @@
 
 @media (min-width: 1200px) and (max-width: 1919px) {}
 
-@media (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .text {
+        font-size: 64px;
+    }
+
+    .image{
+        width: 100%;
+    }
+
+    .image img{
+        width: 35rem;
+    }
+}
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .text {
+        font-size: 64px;
+    }
+
+    .image img{
+        margin-left: 150%;
+    }
 
 }
 
@@ -16,40 +35,43 @@
 @media (min-width: 481px) and (max-width: 575px) {
     .text {
         font-size: 60px;
+        margin-left: 10%;
     }
     .image {
         margin-top: -150px;
         margin-left: 25%;
     }
     .image img{
-        margin-left: -40%;
+        margin-left: -35%;
     }
     
 }
 
 @media (min-width: 391px) and (max-width: 480px) {
+    .text {
+        font-size: 54px;
+        margin-left: 10%;
+    }
     .image {
-        margin-top: -150px;
+        margin-top: -190px;
         margin-left: 25%;
     }
     .image img{
-        width: 35rem;
-        margin-left: -40%;
+        margin-left: -30%;
     }
-    
 }
 
 @media (min-width: 360px) and (max-width: 390px) {
     .text {
-        font-size: 60px;
+        font-size: 54px;
+        margin-left: 5%;
     }
     .image {
-        margin-top: -150px;
+        margin-top: -190px;
         margin-left: 25%;
     }
     .image img{
-        width: 30rem;
-        margin-left: -10%;
+        margin-left: -25%;
     }
 
 }
